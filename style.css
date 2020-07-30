@@ -1,116 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: Space Mono;
-    color: #333333;
+  font-size: 62.5%;
+  font-family: Space Mono;
+  color: #333333;
 }
 
 .erreurPhrase {
-    font-family: Inconsolata;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.4rem;
-    letter-spacing: -0.08em;
-    text-transform: uppercase;
-    margin: 40px 0 0 40px;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  margin: 40px 0 0 40px;
 }
 
 .container {
-    position: relative;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    margin-top: 5%;
+  position: relative;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
 }
 
 .imgDessin {
-    width: 50%;
-    margin-right: 80px;
+  width: 50%;
+  margin-right: 80px;
 }
 
 .accroche {
-    font-weight: bold;
-    font-size: 6.4rem;
-    letter-spacing: -0.035em;
-    line-height: 95px;
-    margin-bottom: 36px;
+  font-weight: bold;
+  font-size: 6.4rem;
+  letter-spacing: -0.035em;
+  line-height: 95px;
+  margin-bottom: 36px;
 }
 
 .description {
-    color: #4F4F4F;
-    font-size: 2.4rem;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 36px;
-    letter-spacing: -0.035em;
-    margin-bottom: 64px;
-    width: 381px;
+  color: #4f4f4f;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  margin-bottom: 64px;
+  width: 381px;
 }
 
 .btn {
-    background: #333333;
-    padding: 23px 43px;
-    color: #FFFFFF;
-    letter-spacing: -0.035em;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.4rem;
-    line-height: 21px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background: #333333;
+  padding: 23px 43px;
+  color: #ffffff;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 21px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #525252;
-    transition: background-color 0.2s;
+  background-color: #525252;
+  transition: background-color 0.2s;
 }
 
 .signature {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-decoration: none;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.4rem;
-    color: #333333;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #333333;
 }
 
 .signature:hover {
-    color: #FFFFFF;
-    background-color: #333333;
+  color: #ffffff;
+  background-color: #333333;
 }
 
 @media screen and (max-width: 375px) {
-    .container {
-        margin-top: 25%;
-        flex-direction: column;
-    }
+  .container {
+    margin-top: 25%;
+    flex-direction: column;
+  }
 
-    .imgDessin {
-        margin: 0;
-        width: 80%;
-    }
+  .imgDessin {
+    margin: 0;
+    width: 80%;
+  }
 
-    .accroche {
-        font-size: 4.8rem;
-        line-height: 71px;
-        margin-bottom: 29px;
-    }
+  .accroche {
+    font-size: 4.8rem;
+    line-height: 71px;
+    margin-bottom: 29px;
+  }
 
-    .description {
-        font-size: 1.8rem;
-        line-height: 27px;
-        margin-bottom: 67px;
-        width: 328px;
-    }
+  .description {
+    font-size: 1.8rem;
+    line-height: 27px;
+    margin-bottom: 67px;
+    width: 328px;
+  }
 }
